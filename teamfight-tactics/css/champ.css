@@ -1,0 +1,287 @@
+.biggest{
+    width: 1520px;
+    height: 1375px;
+    background-color: rgb(13,32,43) ;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.contain {
+    margin-top: 220px;
+    width: 910px;
+    height: 840px;
+    background-color: rgb(13,32,43);
+    display: grid;
+    grid-template-columns:12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows:12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+}
+.champ_a{  
+    width: 55px;
+    height:55px;
+}
+.champ_c_i{  
+    width: 55px;
+    height:55px;
+}
+.champ_j_k{  
+    width: 55px;
+    height:55px;
+}
+.champ_l_n{  
+    width: 55px;
+    height:55px;
+}
+.champ_p_t{  
+    width: 55px;
+    height:55px;
+}
+.champ_v_z{ 
+    width: 55px;
+    height:55px;
+}
+#aatrox{
+    background-image: url('../image/champions/Aatrox.png');
+    background-size: cover;
+}
+#ahri{
+    background-image: url('../image/champions/Ahri.png');
+    background-size: cover;
+}
+#akali{
+    background-image: url('../image/champions/Akali.png');
+    background-size: cover;
+}
+#annie{
+    background-image: url('../image/champions/Annie.png');
+    background-size: cover;
+}
+#aphelios{
+    background-image: url('../image/champions/Aphelios.png');
+    background-size: cover;
+}
+#ashe{
+    background-image: url('../image/champions/Ashe.png');
+    background-size: cover;
+}
+#azir{
+    background-image: url('../image/champions/Azir.png');
+    background-size: cover;
+}
+#cassiopeia{
+    background-image: url('../image/champions/Cassiopeia.png');
+    background-size: cover;
+}
+#diana{
+    background-image: url('../image/champions/Diana.png');
+    background-size: cover;
+}
+#elise{
+    background-image: url('../image/champions/Elise.png');
+    background-size: cover;
+}
+#evelynn{
+    background-image: url('../image/champions/Evelynn.png');
+    background-size: cover;
+}
+#ez{
+    background-image: url('../image/champions/Ezreal.png');
+    background-size: cover;
+}
+#fiora{
+    background-image: url('../image/champions/Fiora.png');
+    background-size: cover;
+}
+#garen{
+    background-image: url('../image/champions/Garen.png');
+    background-size: cover;
+}
+#hecarim{
+    background-image: url('../image/champions/Hecarim.png');
+    background-size: cover;
+}
+#irelia{
+    background-image: url('../image/champions/Irelia.png');
+    background-size: cover;
+}
+#janna{
+    background-image: url('../image/champions/Janna.png');
+    background-size: cover;
+}
+#j4{
+    background-image: url('../image/champions/JarvanIV.png');
+    background-size: cover;
+}
+#jax{
+    background-image: url('../image/champions/Jax.png');
+    background-size: cover;
+}
+#jhin{
+    background-image: url('../image/champions/Jhin.png');
+    background-size: cover;
+}
+#jinx{
+    background-image: url('../image/champions/Jinx.png');
+    background-size: cover;
+}
+#kalista{
+    background-image: url('../image/champions/Kalista.png');
+    background-size: cover;
+}
+#kata{
+    background-image: url('../image/champions/Katarina.png');
+    background-size: cover;
+}
+#kayn{
+    background-image: url('../image/champions/Kayn.png');
+    background-size: cover;
+}
+#kennen{
+    background-image: url('../image/champions/Kennen.png');
+    background-size: cover;
+}
+#kindred{
+    background-image: url('../image/champions/Kindred.png');
+    background-size: cover;
+}
+#lee{
+    background-image: url('../image/champions/LeeSin.png');
+    background-size: cover;
+}
+#lilia{
+    background-image: url('../image/champions/Lillia.png');
+    background-size: cover;
+}
+#liss{
+    background-image: url('../image/champions/Lissandra.png');
+    background-size: cover;
+}
+#lulu{
+    background-image: url('../image/champions/Lulu.png');
+    background-size: cover;
+}
+#lux{
+    background-image: url('../image/champions/Lux.png');
+    background-size: cover;
+}
+#mor{
+    background-image: url('../image/champions/Morgana.png');
+    background-size: cover;
+}
+#nami{
+    background-image: url('../image/champions/Nami.png');
+    background-size: cover;
+}
+#nid{
+    background-image: url('../image/champions/Nidalee.png');
+    background-size: cover;
+}
+#nunu{
+    background-image: url('../image/champions/Nunu.png');
+    background-size: cover;
+}
+#pyke{
+    background-image: url('../image/champions/Pyke.png');
+    background-size: cover;
+}
+#riven{
+    background-image: url('../image/champions/Riven.png');
+    background-size: cover;
+}
+#sejuani{
+    background-image: url('../image/champions/Sejuani.png');
+    background-size: cover;
+}
+#sett{
+    background-image: url('../image/champions/Sett.png');
+    background-size: cover;
+}
+#shen{
+    background-image: url('../image/champions/Shen.png');
+    background-size: cover;
+}
+#sylas{
+    background-image: url('../image/champions/Sylas.png');
+    background-size: cover;
+}
+#tahm{
+    background-image: url('../image/champions/TahmKench.png');
+    background-size: cover;
+}
+#talon{
+    background-image: url('../image/champions/Talon.png');
+    background-size: cover;
+}
+#teemo{
+    background-image: url('../image/champions/Teemo.png');
+    background-size: cover;
+}
+#tf{
+    background-image: url('../image/champions/TwistedFate.png');
+    background-size: cover;
+}
+#vayne{
+    background-image: url('../image/champions/Vayne.png');
+    background-size: cover;
+}
+#veigar{
+    background-image: url('../image/champions/Veigar.png');
+    background-size: cover;
+}
+#vi{
+    background-image: url('../image/champions/Vi.png');
+    background-size: cover;
+}
+#warwich{
+    background-image: url('../image/champions/Warwick.png');
+    background-size: cover;
+}
+#wukong{
+    background-image: url('../image/champions/Wukong.png');
+    background-size: cover;
+}
+#xinzhao{
+    background-image: url('../image/champions/XinZhao.png');
+    background-size: cover;
+}
+#ys{
+    background-image: url('../image/champions/Yasuo.png');
+    background-size: cover;
+}
+#yone{
+    background-image: url('../image/champions/Yone.png');
+    background-size: cover;
+}
+#yuumi{
+    background-image: url('../image/champions/Yuumi.png');
+    background-size: cover;
+}
+#zed{
+    background-image: url('../image/champions/Zed.png');
+    background-size: cover;
+}
+#zilean{
+    background-image: url('../image/champions/Zilean.png');
+    background-size: cover;
+}
+#maokai{
+    background-image: url('../image/champions/Maokai.png');
+    background-size: cover;
+}
+#thresh{
+    background-image: url('../image/champions/Thresh.png');
+    background-size: cover;
+}
+.c1{
+    border: #343a40 1px solid;
+}
+.c2{
+    border: rgb(21,104,49) 1px solid;
+}
+.c3{
+    border: rgb(18,64,124) 1px solid;
+}
+.c4{
+    border: rgb(137,48,136) 1px solid;
+}
+.c5{
+    border: rgb(184,157,39) 1px solid;
+}

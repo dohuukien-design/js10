@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.bg-frist{
+
+    background-image: url("../image/bg/bg-hero.jpg");
+}
+
+.bg-2{
+    background-image: url("../image/bg/bg-lines-1.png");
+
+}
+
+.bg-feature{
+    background-image: url("../image/bg/bg-features2.png");
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+}
+
+.bg{
+
+  /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #4c4c6d;
+    height: 55px;
+    position: fixed;
+    top:0;
+}
+
+.img-main{
+    max-width: 55%;
+    height: auto;
+    /* position: absolute; or absolute */
+    /* top: 50%; */
+    /* left: 22%;
+    top: 13%; */
+    margin: auto;
+}
+
+.f-normal{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.f-no-normal{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.btn-border{
+    width: 220px;
+    height: 60px;
+    border: 3px solid #9e6c36;
+    /* position: relative;
+    top: 67%; */
+    /* left: 41.75%; */
+    margin: auto;
+}
+
+
+.btn-info{
+    background-color: #4c4c6d;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border: 3px solid #9e6c36;
+    /* position: relative; */
+    /* top: 8.75%; */
+    /* left: 3%; */
+    margin:  auto;
+    justify-content: space-around;
+}
+
+.logo-end{
+    /* position: absolute;
+    top: 84%;
+    left: 34.25%; */
+    margin:  10px auto 0 auto;
+    max-width: 30%;
+}
+
+
+
+.tur-info{
+    height: 40px;
+    width: 600px;
+    text-align: center;
+    font-size: 100%;
+    /* line-height: 1.15;
+    font-weight: 400; */
+    /* position: relative;
+    top: 10%;     */
+    /* left: 33%; */
+    margin: 30px  auto;
+}
+
+.tur-video{
+    height: 560px;
+    width: 990px;
+    margin: 60px auto;
+    border: 4px solid #9e6c36;
+}
+
+.champions{
+    height: 560px;
+    width: 480px;
+    background-color: #fff;
+    border: 4px solid #9e6c36;
+    margin: auto;
+}
+
+.items{
+    height: 560px;
+    width: 480px;
+    background-color: #fff;
+    border: 4px solid #9e6c36;
+    margin: auto;
+}
+
+.pic-champions{
+    width: 480px;
+    height: 270px;
+    background-color: #4c4c6d;
+}
