@@ -5,6 +5,20 @@
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
 }
+.filterContain{
+    margin-top: 220px;
+}
+.filter{
+    color:white;
+    font-size: 20px;
+}
+#costReset{
+    display: flex;
+    justify-content: space-around;
+}
+#CostBar{
+    background-color: rgb(13,32,43);
+}
 .contain {
     margin-top: 220px;
     width: 910px;
@@ -13,6 +27,10 @@
     display: grid;
     grid-template-columns:12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     grid-template-rows:12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+}
+#cost{
+    display: flex;
+    flex-direction: column;
 }
 .champ_a{  
     width: 55px;

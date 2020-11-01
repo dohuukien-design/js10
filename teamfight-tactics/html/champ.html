@@ -6,18 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/champ.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="biggest">
-        <div class="cost">
-            <div class="cost1"></div>
-            <div class="cost2"></div>
-            <div class="cost3"></div>
-            <div class="cost4"></div>
-            <div class="cost5"></div>
+        <div class="filterContain">
+            <div class="filter">Filter</div>
+            <div id="cost">
+                <ul class="text">
+                    <div id="costReset">
+                        <div>
+                            <li style="list-style: none;" id='CostBar'><button class="cost" id='cost'
+                                    data-toggle="collapse" data-target='#lol'>Cost</button>
+                        </div>
+                        <div><button id="reset" onclick='Reset()'>Reset</button></li>
+                        </div>
+                    </div>
+                    <div id='lol'>
+                        <li><button class='cost' id='G1' onclick="Cost1()">1G</button></li>
+                        <li><button class='cost' id="G2" onclick="Cost2()">2G</button></li>
+                        <li><button class="cost" id="G3" onclick="Cost3()">3G</button></li>
+                        <li><button class="cost" id="G4" onclick="Cost4()">4G</button></li>
+                        <li><button class='cost' id="G5" onclick="Cost5()">5G</button></li>
+                    </div>
+                </ul>
+            </div>
         </div>
-        <div class="contain">
+        <div id="champ" class="contain">
             <div id='aatrox' class="champ_a c4"></div>
             <div id='ahri' class="champ_a c4"></div>
             <div id='akali' class="champ_a c3"></div>
@@ -81,6 +99,7 @@
     </div>
 
 </body>
-<script src='project.js'></script>
+<script src='../js/champ.js'></script>
+
 
 </html>
