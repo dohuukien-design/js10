@@ -14,7 +14,7 @@
 }
 #costReset{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #CostBar{
     background-color: rgb(13,32,43);

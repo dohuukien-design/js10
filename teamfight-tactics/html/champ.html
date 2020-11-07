@@ -13,12 +13,15 @@
 
 <body>
     <div class="biggest">
+        <!--Toàn bộ trang -->
         <div class="filterContain">
             <div class="filter">Filter</div>
             <div id="cost">
+                <!--Giá tiền -->
                 <ul class="text">
                     <div id="costReset">
                         <div>
+                            <!-- Làm hiệu ứng collapse và reset -->
                             <li style="list-style: none;" id='CostBar'><button class="cost" id='cost'
                                     data-toggle="collapse" data-target='#lol'>Cost</button>
                         </div>
@@ -26,6 +29,7 @@
                         </div>
                     </div>
                     <div id='lol'>
+                        <!-- Làm button -->
                         <li><button class='cost' id='G1' onclick="Cost1()">1G</button></li>
                         <li><button class='cost' id="G2" onclick="Cost2()">2G</button></li>
                         <li><button class="cost" id="G3" onclick="Cost3()">3G</button></li>
@@ -34,67 +38,117 @@
                     </div>
                 </ul>
             </div>
+            <div class="origin" id='origin'>
+                <ul class="text2">
+                    <div class="originbox">
+                        <li style="list-style: none;" id='OriginBar'><button class="origin1" id='OriBar'
+                                data-toggle="collapse" data-target='#origin2'>Origin</button>
+                    </div>
+                    <div id="origin2">
+                        <li><button class='original' id='cultist' onclick="Cultist()">Cultist</button></li>
+                        <li><button class="original" id="divine" onclick="Divine()">Divine</button></li>
+                        <li><button class="original" id="dusk" onclick="Dusk()">Dusk</button></li>
+                        <li><button class="original" id="elderwood" onclick="Elderwood()">Elderwood</button></li>
+                        <li><button class="original" id="enlightened" onclick="Enlightened()">Enlightened</button></li>
+                        <li><button class="original" id="exile" onclick="Exile()">Exile</button></li>
+                        <li><button class="original" id="fortune" onclick="Fortune()">Fortune</button></li>
+                        <li><button class="original" id="moonlight" onclick="Moonlight()">Moonlight</button></li>
+                        <li><button class="original" id="ninja" onclick="Ninja()">Ninja</button></li>
+                        <li><button class="original" id="spirit" onclick="Spirit()">Spirit</button></li>
+                        <li><button class="original" id="theboss" onclick="TheBoss()">The Boss</button></li>
+                        <li><button class="original" id="tormented" onclick="Tormented()">Tormented</button></li>
+                        <li><button class="original" id="warlord" onclick="Warlord()">Warlord</button></li>
+                    </div>
+                </ul>
+            </div>
+            <div id="class">
+                <ul class="text3">
+                    <div class="classbox">
+                        <li style="list-style: none;" id='ClassBar'><button class="class1" id='ClaBar'
+                                data-toggle="collapse" data-target='#class2'>Class</button>
+                    </div>
+                    <div id="class2">
+                        <li><button class="class" id="adept" onclick="Adept()">Adept</button></li>
+                        <li><button class="class" id="assasin" onclick="Assasin()">Assasin</button></li>
+                        <li><button class="class" id="brawler" onclick="Brawler()">Brawler</button></li>
+                        <li><button class="class" id="dazzler" onclick="Dazzler()">Dazzler</button></li>
+                        <li><button class="class" id="duelist" onclick="Duelist()">Duelist</button></li>
+                        <li><button class="class" id="emperor" onclick="Emperor()">Emperor</button></li>
+                        <li><button class="class" id="hunter" onclick="Hunter()">Hunter</button></li>
+                        <li><button class="class" id="keeper" onclick="Keeper()">Keeper</button></li>
+                        <li><button class="class" id="mage" onclick="Mage()">Mage</button></li>
+                        <li><button class="class" id="mystic" onclick="Mystic()">Mystic</button></li>
+                        <li><button class="class" id="shade" onclick="Shade()">Shade</button></li>
+                        <li><button class="class" id="sharpshooter" onclick="Sharpshooter()">Sharpshooter</button></li>
+                        <li><button class="class" id="vanguard" onclick="Vanguard()">Vanguard</button></li>
+                    </div>
+                </ul>
+            </div>
         </div>
-        <div id="champ" class="contain">
-            <div id='aatrox' class="champ_a c4"></div>
-            <div id='ahri' class="champ_a c4"></div>
-            <div id='akali' class="champ_a c3"></div>
-            <div id='annie' class="champ_a c2"></div>
-            <div id='aphelios' class="champ_a c2"></div>
-            <div id='ashe' class="champ_a c4"></div>
-            <div id='azir' class="champ_a c5 "></div>
-            <div id='cassiopeia' class="champ_c_i c4"></div>
-            <div id='diana' class="champ_c_i c1"></div>
-            <div id='elise' class="champ_c_i c1"></div>
-            <div id='evelynn' class="champ_c_i c3"></div>
-            <div id='ez' class="champ_c_i c5"></div>
-            <div id='fiora' class="champ_c_i c1"></div>
-            <div id='garen' class="champ_c_i c1"></div>
-            <div id='hecarim' class="champ_c_i c2"></div>
-            <div id='irelia' class="champ_c_i c3"></div>
-            <div id='janna' class="champ_j_k c2"></div>
-            <div id='j4' class="champ_j_k c2"></div>
-            <div id='jax' class="champ_j_k c2"></div>
-            <div id='jhin' class="champ_j_k c4"></div>
-            <div id='jinx' class="champ_j_k c3"></div>
-            <div id='kalista' class="champ_j_k c3"></div>
-            <div id='kata' class="champ_j_k c3"></div>
-            <div id='kayn' class="champ_j_k c5"></div>
-            <div id='kennen' class="champ_j_k c3"></div>
-            <div id='kindred' class="champ_j_k c3"></div>
-            <div id='lee' class="champ_l_n c5"></div>
-            <div id='lilia' class="champ_l_n c5"></div>
-            <div id='liss' class="champ_l_n c2"></div>
-            <div id='lulu' class="champ_l_n c2"></div>
-            <div id='lux' class="champ_l_n c3"></div>
-            <div id='maokai' class="champ_l_n c1"></div>
-            <div id='mor' class="champ_l_n c4"></div>
-            <div id='nami' class="champ_l_n c1"></div>
-            <div id='nid' class="champ_l_n c1"></div>
-            <div id='nunu' class="champ_l_n c3"></div>
-            <div id='pyke' class="champ_p_t c2"></div>
-            <div id='riven' class="champ_p_t c4"></div>
-            <div id='sejuani' class="champ_p_t c4"></div>
-            <div id='sett' class="champ_p_t c5"></div>
-            <div id='shen' class="champ_p_t c4"></div>
-            <div id='sylas' class="champ_p_t c2"></div>
-            <div id='tahm' class="champ_p_t c1"></div>
-            <div id='talon' class="champ_p_t c4"></div>
-            <div id='teemo' class="champ_p_t c2"></div>
-            <div id='thresh' class="champ_p_t c2"></div>
-            <div id='tf' class="champ_p_t c1"></div>
-            <div id='vayne' class="champ_v_z c1"></div>
-            <div id='veigar' class="champ_v_z c3"></div>
-            <div id='vi' class="champ_v_z c2"></div>
-            <div id='warwich' class="champ_v_z c4"></div>
-            <div id='wukong' class="champ_v_z c1"></div>
-            <div id='xinzhao' class="champ_v_z c3"></div>
-            <div id='ys' class="champ_v_z c1"></div>
-            <div id='yone' class="champ_v_z c5"></div>
-            <div id='yuumi' class="champ_v_z c3"></div>
-            <div id='zed' class="champ_v_z c2"></div>
-            <div id='zilean' class="champ_v_z c5"></div>
-        </div>
+
+
+        <!-- <div id="champ" class="contain"> -->
+            <!-- c1 là 1 vàng, tương tự c2 c3 c4 c5
+            champ a là tên các champ bắt đầu = a, champ_c_i là các champ từ c đến i, tương tự -->
+            <!-- <div id='aatrox' class="champ_a c4 cultist vanguard"></div>
+            <div id='ahri' class="champ_a c4 spirit mage"></div>
+            <div id='akali' class="champ_a c3 ninja assasin"></div>
+            <div id='annie' class="champ_a c2 fortune mage"></div>
+            <div id='aphelios' class="champ_a c2 moonlight hunter"></div>
+            <div id='ashe' class="champ_a c4 elderwood hunter"></div>
+            <div id='azir' class="champ_a c5 warlord emperor keeper"></div>
+            <div id='cassiopeia' class="champ_c_i c4 dusk mystic"></div>
+            <div id='diana' class="champ_c_i c1 moonlight assasin"></div>
+            <div id='elise' class="champ_c_i c1 cultist keeper"></div>
+            <div id='evelynn' class="champ_c_i c3 cultist shade"></div>
+            <div id='ez' class="champ_c_i c5 elderwood dazzler"></div>
+            <div id='fiora' class="champ_c_i c1 enlightened duelist"></div>
+            <div id='garen' class="champ_c_i c1 warlord vanguard"></div>
+            <div id='hecarim' class="champ_c_i c2 elderwood vanguard"></div>
+            <div id='irelia' class="champ_c_i c3 divine enlightened adept"></div>
+            <div id='janna' class="champ_j_k c2 enlightened mystic"></div>
+            <div id='j4' class="champ_j_k c2 warlord keeper"></div>
+            <div id='jax' class="champ_j_k c2 divine duelist"></div>
+            <div id='jhin' class="champ_j_k c4 cultist sharpshooter"></div>
+            <div id='jinx' class="champ_j_k c3 fortune sharpshooter"></div>
+            <div id='kalista' class="champ_j_k c3 cultist duelist"></div>
+            <div id='kata' class="champ_j_k c3 fortune warlord assasin"></div>
+            <div id='kayn' class="champ_j_k c5 tormented shade"></div>
+            <div id='kennen' class="champ_j_k c3 ninja keeper"></div>
+            <div id='kindred' class="champ_j_k c3 spirit hunter"></div>
+            <div id='lee' class="champ_l_n c5 divine duelist"></div>
+            <div id='lilia' class="champ_l_n c5 dusk mage"></div>
+            <div id='liss' class="champ_l_n c2 moonlight dazzler"></div>
+            <div id='lulu' class="champ_l_n c2 elderwood mage"></div>
+            <div id='lux' class="champ_l_n c3 divine dazzler"></div>
+            <div id='maokai' class="champ_l_n c1 elderwood brawler"></div>
+            <div id='mor' class="champ_l_n c4 enlightened dazzler"></div>
+            <div id='nami' class="champ_l_n c1 enlightened mage"></div>
+            <div id='nid' class="champ_l_n c1 warlord sharpshooter"></div>
+            <div id='nunu' class="champ_l_n c3 elderwood brawler"></div>
+            <div id='pyke' class="champ_p_t c2 cultist assasin"></div>
+            <div id='riven' class="champ_p_t c4 dusk keeper"></div>
+            <div id='sejuani' class="champ_p_t c4 fortune vanguard "></div>
+            <div id='sett' class="champ_p_t c5 theboss brawler"></div>
+            <div id='shen' class="champ_p_t c4 ninja adept mystic"></div>
+            <div id='sylas' class="champ_p_t c2 moonlight brawler"></div>
+            <div id='tahm' class="champ_p_t c1 fortune brawler"></div>
+            <div id='talon' class="champ_p_t c4 enlightened assasin"></div>
+            <div id='teemo' class="champ_p_t c2 spirit sharpshooter"></div>
+            <div id='thresh' class="champ_p_t c2 dusk vanguard"></div>
+            <div id='tf' class="champ_p_t c1 cultist mage"></div>
+            <div id='vayne' class="champ_v_z c1 dusk sharpshooter"></div>
+            <div id='veigar' class="champ_v_z c3 elderwood mage"></div>
+            <div id='vi' class="champ_v_z c2 warlord brawler"></div>
+            <div id='warwich' class="champ_v_z c4 divine brawler hunter"></div>
+            <div id='wukong' class="champ_v_z c1 divine vanguard"></div>
+            <div id='xinzhao' class="champ_v_z c3 warlord duelist"></div>
+            <div id='ys' class="champ_v_z c1 exile duelist"></div>
+            <div id='yone' class="champ_v_z c5 exile adept"></div>
+            <div id='yuumi' class="champ_v_z c3 spirit mystic"></div>
+            <div id='zed' class="champ_v_z c2 ninja shade"></div>
+            <div id='zilean' class="champ_v_z c5 cultist mystic"></div>
+        </div> -->
 
     </div>
 
